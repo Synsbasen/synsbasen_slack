@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://synsbasen.dk"
   s.license     = "MIT"
 
-  s.add_development_dependency 'rails'
+  s.add_development_dependency 'rails', '~> 7.1.0.alpha'
   s.add_runtime_dependency "slack-ruby-client", "~> 2.1.0"
   s.add_runtime_dependency "async-websocket", "~> 0.8.0"
 end
