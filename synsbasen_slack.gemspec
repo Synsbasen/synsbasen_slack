@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name        = "synsbasen_slack"
   s.version     = SynsbasenSlack::VERSION
   s.summary     = "Simple wrapper used to send messages using slack-ruby-client"
-  s.description = "A simple wrapper that defines a SlackWrapper class to be used when sending messages to Slack."
+  s.description = "A simple wrapper that defines a SynsbasenSlack::Wrapper class to be used when sending messages to Slack."
   s.authors     = ["Jimmy Poulsen", "Tobias Knudsen"]
   s.email       = ["jimmypoulsen96@gmail.com", "tobias.knudsen@gmail.com"]
   s.files       = ["lib/synsbasen_slack.rb", "lib/synsbasen_slack/wrapper.rb", "lib/synsbasen_slack/version.rb"]
