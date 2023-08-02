@@ -1,6 +1,12 @@
 # Synsbasen Slack
 A simple wrapper that defines a SynsbasenSlack::Wrapper class to be used when sending messages to Slack.
 
+## Installation
+Add the gem to your Gemfile:
+```
+gem "synsbasen_slack", github: "Synsbasen/synsbasen_slack", branch: "master"
+```
+
 ## Configuration
 Start by creating a new initializer:
 ```bash
