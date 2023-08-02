@@ -13,4 +13,5 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'rails'
   s.add_runtime_dependency "slack-ruby-client", "~> 2.1.0"
+  s.add_runtime_dependency "async-websocket", "~> 0.8.0"
 end
