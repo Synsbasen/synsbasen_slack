@@ -6,7 +6,6 @@ module SynsbasenSlack
 
     def initialize
       @client = Slack::Web::Client.new(token: SynsbasenSlack.config[:slack_access_token])
-      @client.auth_test
     end
 
     def chat_postMessage(*args)
