@@ -1,5 +1,6 @@
 require "synsbasen_slack/version"
 require "synsbasen_slack/wrapper"
+require "ostruct"
 
 module SynsbasenSlack
   REQUIRED_CONFIGS = %i[slack_access_token slack_default_channel]
